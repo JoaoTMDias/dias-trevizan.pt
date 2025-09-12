@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+
 // Wedding Website - Dias & Trevizan
 const weddingDate = "2025-12-06"; // December 6, 2025
 const venue = "Mila Restaurante"; // Wedding lunch venue
@@ -882,12 +884,13 @@ const registryVenue = "Registo Civil"; // Registry location
               <br /><strong>Let's rock it. 💍🎸🧝‍♂️</strong>
             </p>
           </div>
-          <img
+          <Image
             src="/photos/foto-main.webp"
             srcset="/photos/foto-main.webp 1x, /photos/foto-main_2x.webp 2x, /photos/foto-main_3x.webp 3x"
             width="477"
             height="400"
             class="story-image"
+            loading="lazy"
             alt="Ana e João na praia, no Sonic Blast"
           />
         </div>
@@ -899,47 +902,59 @@ const registryVenue = "Registo Civil"; // Registry location
       <div class="container">
         <h2 class="section-title">A Nossa Aventura</h2>
         <div class="photo-grid">
-          <img
+          <Image
             src="/photos/photo-galeria-1.webp"
             srcset="/photos/photo-galeria-1.webp 1x, /photos/photo-galeria-1_2x.webp 2x, /photos/photo-galeria-1_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana e o João no parque verde"
           />
-          <img
+          <Image
             src="/photos/photo-galeria-2.webp"
             srcset="/photos/photo-galeria-2.webp 1x, /photos/photo-galeria-2_2x.webp 2x, /photos/photo-galeria-2_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana e o João no Sonic Blast, com as t-shirts com as quais a Ana pediu o João em casamento"
           />
-          <img
+          <Image
             src="/photos/photo-galeria-3.webp"
             srcset="/photos/photo-galeria-3.webp 1x, /photos/photo-galeria-3_2x.webp 2x, /photos/photo-galeria-3_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana, João e Ozzy"
           />
-          <img
+          <Image
             src="/photos/photo-galeria-4.webp"
             srcset="/photos/photo-galeria-4.webp 1x, /photos/photo-galeria-4_2x.webp 2x, /photos/photo-galeria-4_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana e o João num baloiço, a sorrir um para o outro"
           />
-          <img
+          <Image
             src="/photos/photo-galeria-5.webp"
             srcset="/photos/photo-galeria-5.webp 1x, /photos/photo-galeria-5_2x.webp 2x, /photos/photo-galeria-5_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana e o João no Peso da Régua"
           />
-          <img
+          <Image
             src="/photos/photo-galeria-6.webp"
             srcset="/photos/photo-galeria-6.webp 1x, /photos/photo-galeria-6_2x.webp 2x, /photos/photo-galeria-6_3x.webp 3x"
             width="380"
             height="300"
             class="story-image"
+            loading="lazy"
+            alt="Ana, João e Frederico"
           />
         </div>
       </div>

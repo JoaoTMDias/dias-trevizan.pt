@@ -374,6 +374,7 @@ const registryVenue = "Registo Civil"; // Registry location
         position: relative;
         overflow: hidden;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        display: flex;
       }
 
       .btn-stream:disabled {
@@ -383,7 +384,6 @@ const registryVenue = "Registo Civil"; // Registry location
       .btn-stream .btn-text {
         display: block;
         font-weight: 700;
-        margin-bottom: 0.5rem;
         font-size: 1.2rem;
         color: #495057;
         text-transform: uppercase;
@@ -998,10 +998,14 @@ const registryVenue = "Registo Civil"; // Registry location
                 </p>
               </div>
               <div class="right-content">
-                <button class="btn-stream" disabled>
+                <a
+                  href="https://meet.google.com/roz-qxda-fmh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-stream"
+                >
                   <span class="btn-text">Assistir Online</span>
-                  <span class="btn-status">(Em breve)</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -12,12 +12,12 @@ export const weddingConfig = {
 
   // Wedding Details
   wedding: {
-    date: "2025-12-06",
-    time: "11:00",
-    venue: "Mila Restaurante",
-    city: "Coimbra, Portugal",
-    registryVenue: "Santa Comba Dão",
-    dressCode: "Traje Formal",
+    date: "2026-06-06",
+    time: "13:00",
+    venue: "Edifício Coral Gables",
+    city: "Cuiabá, Brasil",
+    registryVenue: "Edifício Coral Gables",
+    dressCode: "Traje Casual",
   },
 
   // Contact Information

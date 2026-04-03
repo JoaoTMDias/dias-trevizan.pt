@@ -2,14 +2,11 @@
 import { Image } from "astro:assets";
 
 // Wedding Website - Dias & Trevizan
-const weddingDate = "2025-12-06"; // December 6, 2025
-const venue = "Mila Restaurante"; // Wedding lunch venue
-const city = "Coimbra (Eiras), Portugal"; // Location
-const registryVenue = "Registo Civil"; // Registry location
+const registryVenue = "Edifício Coral Gables"; // Registry location
 ---
 
 <!doctype html>
-<html lang="pt-PT">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -250,7 +247,7 @@ const registryVenue = "Registo Civil"; // Registry location
 
       .details-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         margin-top: 3rem;
       }
@@ -842,7 +839,7 @@ const registryVenue = "Registo Civil"; // Registry location
       <div class="hero-content">
         <h1>Vamos Casar!</h1>
         <div class="names">Ana & João</div>
-        <div class="date">6 de Dezembro, 2025</div>
+        <div class="date">6 de Junho, 2026</div>
       </div>
       <div class="scroll-indicator">
         <svg viewBox="0 0 24 24">
@@ -854,34 +851,32 @@ const registryVenue = "Registo Civil"; // Registry location
     <!-- Our Story Section -->
     <section class="section story-section">
       <div class="container">
-        <h2 class="section-title">A Nossa História</h2>
+        <h2 class="section-title">Nossa História</h2>
         <div class="story-content">
           <div class="story-text">
             <h3>💍 Como Nos Conhecemos</h3>
             <p>
-              Foi numa tarde quente de verão, às margens do Rio Mondego, em Coimbra, que tudo
-              começou. Ela — no auge do desespero a tentar terminar a sua tese de doutoramento. Ele
+              Foi em uma tarde quente de verão, às margens do Rio Mondego, em Coimbra, que tudo
+              começou. Ela - no auge do desespero a tentar terminar a sua tese de doutoramento. Ele
               — um programador tímido, que quase evitava olhar nos olhos dela.
             </p>
             <p>
               As conversas fluíram como se fossem parceiros há muito tempo. As ideias eram as
               mesmas, as lutas também: um mundo mais justo, igualitário e livre de preconceitos. Até
-              o estilo era igual: sapatilhas despojadas, camisas coloridas e sessões de terapia em
-              dia
+              o estilo era igual: tênis casuais, camisas coloridas e sessões de terapia em dia
             </p>
             <p>
-              O pedido de um simples cafézinho virou convite para uma cerveja — novamente à beira do
-              Mondego. E ali, ao som das águas e das estrelas, ela declarou-se encantada, e ele
-              tímido chamou-a para dar uma volta. Desde então nunca mais se largaram!
+              O pedido de um simples cafezinho virou convite para uma cerveja — novamente à beira do
+              Mondego. E ali, ao som das águas e das estrelas, ela se declarou encantada, e ele
+              tímido a chamou para dar uma volta. Desde então nunca mais se largaram!
             </p>
             <p class="quote">
-              "I would rather share one lifetime with you than face all the ages of this world
-              alone."
+              "Prefiro compartilhar uma vida com você a enfrentar todas as eras deste mundo sozinha"
               <br /><em>– Arwen, O Senhor dos Anéis</em>
             </p>
             <p class="signature">
               E agora, queremos celebrar este amor com todos vocês!
-              <br />Com boa música, boas comida, e talvez até um elfo ou dois.
+              <br />Com boa música, boa comida, e talvez até um elfo ou dois.
               <br /><strong>Let's rock it. 💍🎸🧝‍♂️</strong>
             </p>
           </div>
@@ -901,7 +896,7 @@ const registryVenue = "Registo Civil"; // Registry location
     <!-- Photos Section -->
     <section class="section photos-section">
       <div class="container">
-        <h2 class="section-title">A Nossa Aventura</h2>
+        <h2 class="section-title">Nossa Aventura</h2>
         <div class="photo-grid">
           <Image
             src="/photos/photo-galeria-1.webp"
@@ -910,7 +905,7 @@ const registryVenue = "Registo Civil"; // Registry location
             height="300"
             class="story-image"
             loading="lazy"
-            alt="Ana e o João no parque verde"
+            alt="Ana e João no Parque Verde"
           />
           <Image
             src="/photos/photo-galeria-2.webp"
@@ -919,7 +914,7 @@ const registryVenue = "Registo Civil"; // Registry location
             height="300"
             class="story-image"
             loading="lazy"
-            alt="Ana e o João no Sonic Blast, com as t-shirts com as quais a Ana pediu o João em casamento"
+            alt="Ana e João no Sonic Blast, com as camisetas com as quais a Ana pediu o João em casamento"
           />
           <Image
             src="/photos/photo-galeria-3.webp"
@@ -937,7 +932,7 @@ const registryVenue = "Registo Civil"; // Registry location
             height="300"
             class="story-image"
             loading="lazy"
-            alt="Ana e o João num baloiço, a sorrir um para o outro"
+            alt="Ana e João em um balanço, sorrindo um para o outro"
           />
           <Image
             src="/photos/photo-galeria-5.webp"
@@ -946,7 +941,7 @@ const registryVenue = "Registo Civil"; // Registry location
             height="300"
             class="story-image"
             loading="lazy"
-            alt="Ana e o João no Peso da Régua"
+            alt="Ana e João no Peso da Régua"
           />
           <Image
             src="/photos/photo-galeria-6.webp"
@@ -969,45 +964,12 @@ const registryVenue = "Registo Civil"; // Registry location
           <div class="detail-card">
             <div class="icon">📅</div>
             <h3>Data e Hora</h3>
-            <p>Sábado, 6/Dez/2025<br />às 11:00</p>
-          </div>
-          <div class="detail-card">
-            <div class="icon">💒</div>
-            <h3>Local</h3>
-            <p>{registryVenue}<br />Santa Comba Dão</p>
+            <p>Sábado, 6/Jun/2026<br />às 13:00</p>
           </div>
           <div class="detail-card">
             <div class="icon">🍽️</div>
-            <h3>Almoço</h3>
-            <p>{venue}<br />{city}</p>
-          </div>
-          <div class="detail-card">
-            <div class="icon">⏰</div>
-            <h3>Horário</h3>
-            <p>13:00 - 17:00<br />Almoço e Festa</p>
-          </div>
-
-          <div class="detail-card streaming-card">
-            <div class="content-wrapper">
-              <div class="left-content">
-                <div class="icon">📺</div>
-                <h3>Transmissão</h3>
-                <p>
-                  Para quem não puder estar presente, a cerimónia será transmitida ao vivo para que
-                  todos possam participar.
-                </p>
-              </div>
-              <div class="right-content">
-                <a
-                  href="https://meet.google.com/roz-qxda-fmh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="btn-stream"
-                >
-                  <span class="btn-text">Assistir Online</span>
-                </a>
-              </div>
-            </div>
+            <h3>Local</h3>
+            <p>{registryVenue}<br />Cuiabá</p>
           </div>
         </div>
       </div>
@@ -1020,8 +982,8 @@ const registryVenue = "Registo Civil"; // Registry location
         <div class="dresscode-content">
           <div class="dresscode-intro">
             <p>
-              Esqueçam os sapatos de salto-alto, fato vistoso, vestidos de gala ou qualquer coisa
-              que vos faça pensar "isto aperta" ou "agora vou ter que ir comprar uma roupa nova".
+              Esqueçam os sapatos de salto alto, terno elegante, vestidos de gala ou qualquer coisa
+              que faça vocês pensarem "isto aperta" ou "agora vou ter que comprar uma roupa nova".
               <br /><strong>Aqui o lema é: churrasco, caipirinha e liberdade de movimentos.</strong>
             </p>
           </div>
@@ -1032,23 +994,22 @@ const registryVenue = "Registo Civil"; // Registry location
             <div class="dresscode-item">
               <span class="icon">👖</span>
               <div class="text">
-                <strong>Calças de ganga, calções</strong> ou aquele tipo roupa que usariam pra comer
-                de forma descontraída
+                <strong>Calça jeans, bermuda</strong> ou aquele tipo de roupa que usariam para comer de
+                forma descontraída
               </div>
             </div>
 
             <div class="dresscode-item">
               <span class="icon">👚</span>
               <div class="text">
-                <strong>Camisa simples, t-shirt bonitinha</strong> ou blusa estilosa de centro comercial.
+                <strong>Camisa simples, camiseta bonitinha</strong> ou blusa estilosa de shopping.
               </div>
             </div>
 
             <div class="dresscode-item">
               <span class="icon">👟</span>
               <div class="text">
-                <strong>Sapatilhas, sandálias</strong> ou os vossos sapatos da sorte (vale até Crocs
-                estilosas).
+                <strong>Tênis, sandálias</strong> ou os seus sapatos da sorte (valem até Crocs estilosas).
               </div>
             </div>
           </div>
@@ -1070,57 +1031,24 @@ const registryVenue = "Registo Civil"; // Registry location
         <div class="gifts-content">
           <div class="gifts-intro">
             <p>
-              Se nos quiserem dar um presente, preparámos uma lista de mimos simbólicos (com muita
+              Se quiserem nos dar um presente, preparamos uma lista de mimos simbólicos (com muita
               verdade por trás 😂).
               <br /><strong
-                >São apenas sugestões — qualquer valor é bem-vindo, em euro ou real, conforme for
-                mais fácil para vocês!</strong
+                >São apenas sugestões — qualquer valor é bem-vindo, conforme for mais fácil para
+                vocês!</strong
               >
             </p>
-          </div>
-
-          <div class="gifts-options">
-            <div class="gift-option">
-              <span class="icon">🎁</span>
-              <div class="text">
-                <strong>Contribuições no UK: Libras</strong>
-              </div>
-            </div>
-            <div class="gift-option">
-              <span class="icon">🎁</span>
-              <div class="text">
-                <strong>Contribuições em Portugal: Euros</strong>
-              </div>
-            </div>
-            <div class="gift-option">
-              <span class="icon">🎁</span>
-              <div class="text">
-                <strong>Contribuições no Brasil: Real</strong>
-              </div>
-            </div>
           </div>
 
           <div class="payment-info">
             <h3>📎 Os dados de transferência</h3>
             <div class="payment-details">
               <div class="payment-item">
-                <strong>IBAN:</strong> LT07 3250 0953 1294 2672
-              </div>
-              <div class="payment-item">
-                <strong>MB WAY:</strong> +351 913 579 874
-              </div>
-              <div class="payment-item">
                 <strong>PIX:</strong> 036.818.501-00
-              </div>
-              <div class="payment-item">
-                <strong>Qualquer valor:</strong>
-                <a href="https://revolut.me/joaotmdias" target="_blank" rel="noopener noreferrer"
-                  >Por cartão (Euro ou Libra)</a
-                >
               </div>
             </div>
             <p class="payment-note">
-              Todo valor vira amor (e também sapatilhas, spray de gato, e paz nasal para todos). 🥰
+              Todo valor vira amor (e também tênis, spray para o gato e paz nasal para todos). 🥰
             </p>
           </div>
 
@@ -1132,12 +1060,10 @@ const registryVenue = "Registo Civil"; // Registry location
               <div class="gift-content">
                 <h4>Água Premium para conservar a voz do noivo locutor</h4>
                 <p>
-                  Ele fala muito bem. E nós só queremos garantir que ela dura até a última música da
+                  Ele fala muito bem. E nós só queremos garantir que ela dure até a última música da
                   festa.
                 </p>
                 <div class="gift-prices">
-                  <span class="price">£21</span>
-                  <span class="price">€25</span>
                   <span class="price">R$160</span>
                 </div>
               </div>
@@ -1147,10 +1073,8 @@ const registryVenue = "Registo Civil"; // Registry location
               <div class="gift-icon">💊</div>
               <div class="gift-content">
                 <h4>Remédio de azia para a noiva, pós-churrasco e emoções</h4>
-                <p>O asamento mexe com o coração… e também com o estômago!</p>
+                <p>O casamento mexe com o coração… e também com o estômago!</p>
                 <div class="gift-prices">
-                  <span class="price">£26</span>
-                  <span class="price">€30</span>
                   <span class="price">R$190</span>
                 </div>
               </div>
@@ -1159,14 +1083,12 @@ const registryVenue = "Registo Civil"; // Registry location
             <div class="gift-item">
               <div class="gift-icon">🐾</div>
               <div class="gift-content">
-                <h4>Spray anti-pêlos para o Ozzy (o gato)</h4>
+                <h4>Spray antipelos para o Ozzy (o gato)</h4>
                 <p>
-                  Pra ele nos continuar a dar abraços depois do casamento…sem nos deixar iguais a
+                  Para ele continuar nos dando abraços depois do casamento… sem nos deixar iguais a
                   uma almofada de pelos.
                 </p>
                 <div class="gift-prices">
-                  <span class="price">£42</span>
-                  <span class="price">€50</span>
                   <span class="price">R$300</span>
                 </div>
               </div>
@@ -1178,9 +1100,7 @@ const registryVenue = "Registo Civil"; // Registry location
                 <h4>Lenços para as lágrimas da noiva (e de quem for junto)</h4>
                 <p>Se ela já chora em anúncios de manteiga, imaginem no altar.</p>
                 <div class="gift-prices">
-                  <span class="price">£42</span>
-                  <span class="price">€50</span>
-                  <span class="price">R$330</span>
+                  <span class="price">R$400</span>
                 </div>
               </div>
             </div>
@@ -1188,157 +1108,21 @@ const registryVenue = "Registo Civil"; // Registry location
             <div class="gift-item">
               <div class="gift-icon">🩴</div>
               <div class="gift-content">
-                <h4>Havaianas & calções de banho para o noivo encarar o calor de Cuiabá</h4>
-                <p>Porque ninguém merece suar de calças-de-ganga.</p>
+                <h4>Havaianas & bermuda de banho para o noivo encarar o calor de Cuiabá</h4>
+                <p>Porque ninguém merece suar de calça jeans.</p>
                 <div class="gift-prices">
-                  <span class="price">£52</span>
-                  <span class="price">€60</span>
-                  <span class="price">R$360</span>
+                  <span class="price">R$500</span>
                 </div>
               </div>
             </div>
 
             <div class="gift-item">
-              <div class="gift-icon">👟</div>
+              <div class="gift-icon">🍿</div>
               <div class="gift-content">
-                <h4>Sapatilhas novas para o Fred (o pé dele não para de crescer!)</h4>
-                <p>Até dezembro ele já vai calçar o mesmo que o pai!.</p>
+                <h4>Pulando o São João</h4>
+                <p>Porque queremos comer comida de festa junina durante nossa lua de mel.</p>
                 <div class="gift-prices">
-                  <span class="price">£68</span>
-                  <span class="price">€80</span>
-                  <span class="price">R$480</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🧽</div>
-              <div class="gift-content">
-                <h4>Sessões de spa para o Yaris Cross</h4>
-                <p>
-                  Lavagem + enceramento + mimos. Para manter o carro sempre brilhante e com aquele
-                  cheiro de "carro novo" que dura exactamente 3 dias.
-                </p>
-                <div class="gift-prices">
-                  <span class="price">£68</span>
-                  <span class="price">€80</span>
-                  <span class="price">R$480</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🌬️</div>
-              <div class="gift-content">
-                <h4>Aromatizador de topo para o WC do noivo</h4>
-                <p>Pela paz de todos e o bem-estar olfactivo do lar.</p>
-                <div class="gift-prices">
-                  <span class="price">£86</span>
-                  <span class="price">€100</span>
-                  <span class="price">R$600</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">💆‍♂️</div>
-              <div class="gift-content">
-                <h4>Sessões de massagem para não darmos em doidos antes do grande dia!</h4>
-                <p>São duas festas, em dois países e duas lombares a implorar por misericórdia.</p>
-                <div class="gift-prices">
-                  <span class="price">£102</span>
-                  <span class="price">€120</span>
-                  <span class="price">R$720</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🧠</div>
-              <div class="gift-content">
-                <h4>Sessões de terapia (o mecânico emocional do casal)</h4>
-                <p>
-                  Porque a base do amor é o diálogo… mas ajuda muito quando alguém está ali para nos
-                  aconselhar.
-                </p>
-                <div class="gift-prices">
-                  <span class="price">£102</span>
-                  <span class="price">€120</span>
-                  <span class="price">R$720</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🔧</div>
-              <div class="gift-content">
-                <h4>Kit de sobrevivência automóvel!</h4>
-                <p>
-                  Para quando o carro fizer birras (esperemos que daqui a muitos, muitos anos!). O
-                  João jura que "percebe de carros", mas ainda confunde o líquido do radiador com o
-                  líquido dos limpa-para-brisas.
-                </p>
-                <div class="gift-prices">
-                  <span class="price">£130</span>
-                  <span class="price">€150</span>
-                  <span class="price">R$920</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🧣</div>
-              <div class="gift-content">
-                <h4>Proteção-extra contra o frio português para a noiva</h4>
-                <p>Sim, o casamento é em dezembro. E sim, ela sente frio até com 19°C!</p>
-                <div class="gift-prices">
-                  <span class="price">£130</span>
-                  <span class="price">€150</span>
-                  <span class="price">R$970</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🚗</div>
-              <div class="gift-content">
-                <h4>Primeira prestação do nosso carro</h4>
-                <p>O nosso primeiro bebé de quatro rodas! E que nos vai levar a todos os lados!</p>
-                <div class="gift-prices">
-                  <span class="price">£215</span>
-                  <span class="price">€250</span>
-                  <span class="price">R$1600</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">⛽</div>
-              <div class="gift-content">
-                <h4>Combustível para as primeiras aventuras do Shadowfax (é o nome dele)</h4>
-                <p>
-                  Tanque cheio para memórias premium! Para as primeiras viagens de recém-casados e
-                  escapadinhas românticas.
-                </p>
-                <div class="gift-prices">
-                  <span class="price">£260</span>
-                  <span class="price">€300</span>
-                  <span class="price">R$1915</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="gift-item">
-              <div class="gift-icon">🛋️</div>
-              <div class="gift-content">
-                <h4>Sofá novo para receber as sogras (com conforto e diplomacia)</h4>
-                <p>
-                  Queremos todos bem acomodados…e com espaço pra fugir para o canto, se precisar. 🤣
-                </p>
-                <div class="gift-prices">
-                  <span class="price">£520</span>
-                  <span class="price">€600</span>
-                  <span class="price">R$3.600</span>
+                  <span class="price">R$850</span>
                 </div>
               </div>
             </div>
@@ -1350,7 +1134,7 @@ const registryVenue = "Registo Civil"; // Registry location
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2025 Dias & Trevizan. Feito com ❤️ para o nosso dia especial.</p>
+        <p>&copy; 2026 Dias & Trevizan. Feito com ❤️ para o nosso dia especial.</p>
       </div>
     </footer>
 
